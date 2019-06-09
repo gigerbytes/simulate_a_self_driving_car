@@ -21,7 +21,7 @@ conda env create -f environment-gpu.yml
 ```
 
 
-## Using py-env & pip
+## Using pyenv & pip
 
 ### Installing pyenv & python 3.5.2
 
