@@ -47,6 +47,12 @@ pip install -r requirements.txt
 ```
 
 #### Windows
+You can install Pyenv for Windows from this [repository](https://github.com/pyenv-win/pyenv-win)
+However, since it is a port, it does not have all the features, and I don't think pyenv-virtualenv exists for windows.
+
+I would suggest going the anaconda route
+
+#### Manual
 Or you can manually install the required libraries (see the contents of the environemnt*.yml files) using pip.
 
 
