@@ -25,8 +25,8 @@ conda env create -f environment-gpu.yml
 
 ### Installing pyenv & python 3.5.2
 
-[pyenv](https://github.com/pyenv/pyenv) allows you to have multiple versions on your computer.
-[pyenv-virtualenv](https://github.com/pyenv/pyenv-virtualenv) is a package that allows you to maintain differing python versions in multiple environments, making development easier and neater -
+* [pyenv](https://github.com/pyenv/pyenv) allows you to have multiple versions on your computer.
+* [pyenv-virtualenv](https://github.com/pyenv/pyenv-virtualenv) is a package that allows you to maintain differing python versions in multiple environments, making development easier and neater -
 
 ####  OSX
 ```
@@ -46,7 +46,7 @@ cd /path/to/dir
 pip install -r requirements.txt
 ```
 
-
+#### Windows
 Or you can manually install the required libraries (see the contents of the environemnt*.yml files) using pip.
 
 
@@ -55,7 +55,8 @@ Or you can manually install the required libraries (see the contents of the envi
 
 ### Run the pretrained model
 
-Start up [the Udacity self-driving simulator](https://github.com/udacity/self-driving-car-sim), choose a scene and press the Autonomous Mode button.  Then, run the model as follows:
+* Start up [the Udacity self-driving simulator](https://github.com/udacity/self-driving-car-sim) - **Download the Term1 packages**
+* Choose a scene and press the Autonomous Mode button.  Then, run the model as follows:
 
 ```python
 python drive.py model.h5
