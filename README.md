@@ -70,13 +70,33 @@ python drive.py model.h5
 
 ### To train the model
 
-You'll need the data folder which contains the training images.
+
+You'll need the data folder which contains the training images. If you don't have this, following the following steps:
+
+1. open the Udacity Simulator and select "Training"
+2. Press "R" (for record) and select the data folder in this repository as the target
+3. Drive from 1-5 laps around the track
+4. press "R" to stop recording, and the simulator will generate and save the data files to the folder
+
+To train the model
 
 ```python
 python model.py
 ```
 
 This will generate a file `model-<epoch>.h5` whenever the performance in the epoch is better than the previous best.  For example, the first epoch will generate a file called `model-000.h5`.
+
+Note that model.py accepts arguments such as
+
+```
+-d : data directory           : default='data'
+-t : test size fraction       : default=0.2
+-k : drop out probability     : default=0.5
+-n : number of epochs         : default=10
+-s : samples per epoch        : default=20000
+-b : batch size               : default=40
+-o : save best models only    : default='true'
+-l : learning rate            : default=1.0e-4
 
 ## Credits
 
