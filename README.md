@@ -97,6 +97,7 @@ Note that model.py accepts arguments such as
 -b : batch size               : default=40
 -o : save best models only    : default='true'
 -l : learning rate            : default=1.0e-4
+```
 
 ## Credits
 
