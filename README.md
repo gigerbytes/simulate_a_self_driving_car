@@ -104,6 +104,6 @@ Note that model.py accepts arguments such as
 
 ## Credits
 
-This is the code was developed by and used in [this](https://youtu.be/EaY5QiZwSP4) video on Youtube by Siraj Raval.
+This code was developed by and used in [this](https://youtu.be/EaY5QiZwSP4) video on Youtube by Siraj Raval, from which this repository is forked.
 
-The credits for this code go to [naokishibuya](https://github.com/naokishibuya). I've merely created a wrapper to get people started.
+The credits for the model go to [naokishibuya](https://github.com/naokishibuya).
