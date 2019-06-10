@@ -1,11 +1,12 @@
-# How_to_simulate_a_self_driving_car
-This is the code for "How to Simulate a Self-Driving Car" by Siraj Raval on Youtube
-
 ## Overview
 
-This is the code for [this](https://youtu.be/EaY5QiZwSP4) video on Youtube by Siraj Raval. We're going to use Udacity's [self driving car simulator](https://github.com/udacity/self-driving-car-sim) as a testbed for training an autonomous car.
+This repository contains code to train a CNN model for a self driving car and run it on a simulator. The model is built on python, tensorflow and keras.
 
-## Dependencies
+### The Simulator
+We're going to use Udacity's [self driving car simulator](https://github.com/udacity/self-driving-car-sim) as a testbed for training an autonomous car.
+
+
+## Installation and Dependencies
 
 You can install all dependencies by running one of the following commands
 
@@ -100,5 +101,7 @@ Note that model.py accepts arguments such as
 ```
 
 ## Credits
+
+This is the code was developed by and used in [this](https://youtu.be/EaY5QiZwSP4) video on Youtube by Siraj Raval.
 
 The credits for this code go to [naokishibuya](https://github.com/naokishibuya). I've merely created a wrapper to get people started.
