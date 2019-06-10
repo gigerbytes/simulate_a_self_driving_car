@@ -2,6 +2,8 @@
 
 This repository contains code to train a CNN model for a self driving car and run it on a simulator. The model is built on python, tensorflow and keras.
 
+The code was inspired by the self driving car NVIDIA built a few years ago. If you want to know how it works, check the Python Notebook [here](self-driving-car.ipynb)
+
 ### The Simulator
 We're going to use Udacity's [self driving car simulator](https://github.com/udacity/self-driving-car-sim) as a testbed for training an autonomous car.
 
