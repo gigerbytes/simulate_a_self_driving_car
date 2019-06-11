@@ -21,6 +21,13 @@ conda env create -f environments.yml
 
 # Use TensorFlow with GPU
 conda env create -f environment-gpu.yml
+
+# You can list your environments with
+conda env list
+
+#Activate with
+conda activate car-behavioral-cloning
+
 ```
 
 
